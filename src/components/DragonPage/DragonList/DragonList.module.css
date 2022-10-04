@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;    
+    align-items: center;
+    margin: 20px auto;
+    max-width: 900px;    
+    background-color: rgb(60, 62, 68); 
+    object-fit: cover;   
+}
+
+.header {
+    font-size: 24px;
+    font-weight: 700;
+    color: #61dafb;
+}
+
+.list__container {
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+}
+
+.list__container li {
+    margin-bottom: 20px;
+}
+
+.link {
+    text-decoration: none;    
+    color: white;
+}
+
+.link:hover {
+    color: #61dafb;
+}

@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# DRAGON
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project about reusable spacecraft developed by SpaceX.
 
-## Available Scripts
+## Technology
 
-In the project directory, you can run:
+This project was created in __React__ using the state manager __Redux__.
 
-### `npm start`
+### API Resourses
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+data for one spacecraft [API](https://api.spacexdata.com/v4/dragons/5e9d058759b1ff74a7ad5f8f)
+data on the list of spacecrafts [API](https://api.spacexdata.com/v4/dragons)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Detailed information
 
-### `npm test`
+The following data is available for each spacecraft:
+> - name;
+> - description;
+> - link to Wikipedia;
+> - Aadditional parameters (height, weight, year)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+images are shown as a slider
 
-### `npm run build`
+### User interface
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Implemented the ability to register a user, edit a profile, add spaceships to favorites and display favorites.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installing dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+> - npm i react-router react-router-dom redux react-redux redux-thunk redux-devtools-extension react-simple-image-slider lodash
+> - yarn add react-router react-router-dom redux react-redux redux-thunk redux-devtools-extension react-simple-image-slider lodash
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To deploy the app to production:
+> npm run deploy
